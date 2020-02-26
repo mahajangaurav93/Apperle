@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>APPERLE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet"  href="apperle.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+
+
+	<style>
+
+	   
+
+         @media screen and (max-width: 720px){
+
+	      
+            #nav{
+	      		height: 1500px;
+	      	}
+
+	      	#nav .head h1,p{
+	      		margin-left:0;
+	      		padding: 0;
+	      	}
+	      	#nav .head .row img{
+	      		margin-left:-40px;
+	      	}
+
+	      	#nav .head .btn{
+	      		margin-left:50px;
+	      		padding: 0;
+	      		width: 50%;
+	      		height:40px;
+	      	}
+
+	      	#nav .head .carosel-item{
+	      		justify-content: center;
+	      	}
+
+	      	#features{
+	      		height: 2300px;
+	      		padding:0;
+	      		margin:0;
+	      	}
+	      	#features .row .leftcontent h1{
+	      		text-align: center;
+	      	}
+
+	      	#features .row .leftcontent p{
+	      		text-align: center;
+	      	}
+
+	      	#features .row .rightcontent h1{
+	      		text-align: center;
+	      		margin-top: 30px;
+	      	}
+
+	      	#features .row .rightcontent p{
+	      		text-align: center;
+	      	}
+
+	      	#subscribe{
+	      		padding-top:20px;
+	      		text-align: center;
+
+	      	}
+
+	      	#subscribe .btn{
+	      		padding:0;
+	      		margin-left:10px;
+	      		width:130%;
+	      	}
+	      	#Screenshots{
+	      		height: 1000px;
+	      	}
+	      	#testimonial{
+	      		height: 800px;
+	      	}
+
+	      	#story .row .card{
+	      		width: 100%;
+	      	}
+	      	#get{
+	      		height: 1700px;
+	      		width:100%;
+	      		margin:0;
+	      		padding: 0;
+	      	}
+
+	      	#get .row p{
+	      		text-align:none;
+	      		padding-left: 150px;
+	      		width: 100%;
+	      	
+	      	}
+
+	      	#get .row .btn{
+	      		
+	      		margin-left: 150px;
+	      		width: 70%;
+	      		margin-bottom: 10px;
+	      	
+	      	}
+	      	#news .row .card{
+	      		width: 100%;
+	      	}
+
+	      	#statistics{
+	      		height: 850px;
+	      	}
+
+	      	#faq .row img>img{
+	      		margin-top: -600px;
+	      	}
+	      	#map{
+	      		height: 1300px;
+	      	}
+
+	      	#map .jumbotron{
+	      		height: 900px;
+	      	
+	      	}
+
+	      	#map .jumbotron .row .addr{
+	      		margin-top:40px;
+	      	}
+	}
+	</style>
+</head>
+<body>
+
+
+	<!--NAVBAR--->
+<section id="nav">
+
+	<!-- <video class="iphone" autoplay muted loop style="height: 900px; background-size: cover; width: 100%; position: absolute; top:30px">
+
+		<source src="/Users/gaurav/Desktop/WSA.html/bootproject2/iphone.mp4" type="video/mp4" height="700px">
+
+
+	 </video> -->
+
+
+	<nav class="navbar navbar-expand-lg nav-light ">
+
+	<div class="container-fluid">
+
+	    <!---BRAND-->
+        <a class="navbar-brand text-white" href="#" style="font-size: 25px;">
+        	<img src="img10.png">APPERLE
+        </a>
+
+        <!--TOGGLE ICON-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!---NAVBAR LISTS-->
+        <div class="collapse navbar-collapse" id="navbarnav">
+           <ul class="navbar-nav ml-auto text-white">
+
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Screenshots</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Download</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown">
+                    News</a>
+
+                    <div class="dropdown-menu" aria-labelledby="navdrop">
+                    	<a class="dropdown-item">News Section</a>
+                    	<div class="dropdown-divider"></div>
+
+           				<a class="dropdown-item">News Page</a>
+                    	<a class="dropdown-item">Single News Page</a>
+                    </div>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQs</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+
+       
+
+		 <!---Header--->
+<div class="container-fluid head">
+
+	<div class="row">
+        		<div class="col-lg-7 col-md-7 col-sm-12 col-12">
+        			<div>
+        				<img class="appearle" src="img11.png">
+        				<p class="text-white text-center text-justify">
+        					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        					</p> 
+        				</p> <br>
+
+        				<center>
+        					<button type=" button" class="btn text-center btn-outline-primary text-white">
+        				    FIND MORE ABOUT US</button>
+        			    </center>
+                    </div>
+                </div>
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12" style="margin-top: 30px;">
+
+        	<!---CAROUSEL-->
+        	<center>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+
+
+				    <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img  src="img1.png" style="height:700px" class="animated pulse d-block img-fluid" alt="First slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img src="img2.png" style="height:700px"   class=" animated pulse d-block img-fluid" alt="Second slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img src="img3.png" style="height:700px"   class="animated pulse d-block img-fluid" alt="Third slide">
+					    </div>
+
+				    </div>
+		    </div>
+		</center>
+		</div> 
+	</div>
+</div>
+</section><br><br>
+
+<!--ABOUT US-->
+<section id="about">
+	
+	<div class="container">
+
+		<h1 class="text-center">ABOUT APPERLE</h1>
+		
+			<h1 class="text-center" style="color: blue">---------
+				<i class="fa fa-heart" style="color:blue; text-align:center; font-size:30px;"></i>
+				--------
+			</h1>
+			<br>
+
+			<p class="text-center" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<br><br>
+	</div>
+
+		   <div class="container">
+		    <div class="row" >
+		    
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+					        <i class="fa fa-snowflake-o snow" style="font-size: 55px;"></i><br><br>
+					        <h2>UNIQUE LAYOUT</h2>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					    </div>
+
+					    <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+					         <i class="fa fa-pencil" style="font-size: 55px;"></i><br><br>
+					        <h2>WELL DOCUMENTED</h2>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+					    </div>
+
+					    <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+					        <i class="fa fa-superpowers" style="font-size: 55px;"></i><br><br>
+					        <h2>SUPERFAST</h2>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+					    </div>
+					
+			    </div>
+			</div>
+
+	</div>
+</section><br><br>
+
+
+<!---FEATURES--->
+<section id="features">
+
+
+	<h1 class="text-center text-white" style="padding-top: 50px;"><b>Features</b></h1>
+		
+		<h1 class="text-center" style="color: blue">---------
+			<i class="fa fa-heart" style="color:red; text-align:center; color:blue; font-size:30px;"></i>
+				--------
+			</h1>
+		<br>
+
+		<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12 leftcontent">
+					<h1>Super Fast</h1><br>
+					<p>Lorem ipsum dolor sit amet,<br>
+					 consectetur adipisicing elit<br> eiusmod
+					tempor </p>
+					<br>
+
+					<h1>Unlimited Features</h1><br>
+					<p>Lorem ipsum dolor sit amet,<br>
+					 consectetur adipisicing elit<br> eiusmod
+					tempor </p>
+					<br>
+
+					<h1>User Friendly</h1><br>
+					<p>Lorem ipsum dolor sit amet,<br>
+					 consectetur adipisicing elit<br> eiusmod
+					tempor </p>
+				</div>
+
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<center>
+						<img class="wow animated bounceInDown" src="img2.png" height="700px" width="80%">
+					</center>
+
+				</div>
+
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12 rightcontent">
+
+					<h1>Retina Ready</h1><br>
+					<p>Lorem ipsum dolor sit amet,<br>
+					 consectetur adipisicing elit<br> eiusmod
+					tempor </p>
+					<br>
+
+					<h1>Well Documented</h1><br>
+					<p>Lorem ipsum dolor sit amet,<br>
+					 consectetur adipisicing elit<br> eiusmod
+					tempor </p>
+					<br>
+
+					<h1>Super Powerful</h1><br>
+					<p>Lorem ipsum dolor sit amet,<br>
+					 consectetur adipisicing elit<br> eiusmod
+					tempor </p>
+
+				</div>
+		</div>
+</section><br><br>
+
+<!--SHOWCASE--->
+<section id="showcase">
+
+   <div class="container">
+	    <h1 class="text-center">SHOWCASE</h1>
+		
+		<h1 class="text-center" style="color: blue">------
+			<i class="fa fa-heart" style="color:red; text-align:center; color:blue; font-size:30px;"></i>
+				------
+			</h1><br>
+		<p class="text-center" style="font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis exercitation  <br>laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<br><br>
+
+		<div class="row">
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+				<h3> Eye Catching Details</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<br>
+				<i class="fa fa-rocket" style="font-size: 40px;color: blue;">&nbsp;&nbsp;&nbsp;
+					<b style="color: black; font-size: 30px;">Super Fast</b></i><br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua!</p>
+				<br><br>
+
+				<i class="fa fa-lightbulb-o" style="font-size: 40px;color: blue;">&nbsp;&nbsp;&nbsp;
+					<b style="color: black; font-size: 30px;">Unlimited Features</b></i><br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua!</p>
+
+
+			</div>
+
+			 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                 <center class="wow animated bounceInRight">
+			 	<img src="img4.png" height="500px" width="100%">
+			 	<img src="img5.png" height="500px" width="100%" style="margin-top: -420px; ">
+			 </center>
+			</div>
+
+		</div>
+		<br><br>
+
+
+
+		<div class="row">
+
+			
+			 <div class="col-lg-6 col-md-6 col-sm-12 col-12 wow animated bounceInLeft" style="margin-left: -50px;">
+                 
+			 	<img src="img6.png" height="500px" width="100%">
+			 	<img src="img7.png" height="500px" width="100%" style="margin-top: -420px; ">
+			 
+			</div>
+		
+
+
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12" style="margin-left: 40px;">
+
+				<h3> Eye Catching Details</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<br>
+				<i class="fa fa-cog" style="font-size: 40px;color: blue;">&nbsp;&nbsp;&nbsp;
+					<b style="color: black; font-size: 30px;">Super Fast</b></i><br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua!</p>
+				<br><br>
+
+				<i class="fa fa-comments" style="font-size: 40px;color: blue;">&nbsp;&nbsp;&nbsp;
+					<b style="color: black; font-size: 30px;">Unlimited Features</b></i>
+					<br><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua!</p>
+			</div>
+
+		</div>
+		<br><br>
+
+		<div class="row">
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+				<h3> Eye Catching Details</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<br>
+				<i class="fa fa-eye" style="font-size: 40px;color: blue;">&nbsp;&nbsp;&nbsp;
+					<b style="color: black; font-size: 30px;">Super Fast</b></i><br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua!</p>
+				<br><br>
+
+				<i class="fa fa-heartbeat" style="font-size: 40px;color: blue;">&nbsp;&nbsp;&nbsp;
+					<b style="color: black; font-size: 30px;">Unlimited Features</b></i><br><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua!</p>
+
+
+			</div>
+
+			 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                 <center class="wow animated bounceInRight">
+			 	<img src="img4.png" height="500px" width="100%">
+			 	<img src="img5.png" height="500px" width="100%" style="margin-top: -420px; ">
+			 </center>
+			</div>
+
+		</div>
+    </div>
+</section>
+<br><br>
+
+<!--SUBSCRIBE-->
+<section id="subscribe">
+
+	<div class="row">
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<h1 style="margin-left: 70px;">SUBSCRIBE</h1>
+		</div>
+		
+
+		<div class="col-lg-3 col-md-3 col-sm-9 col-9">
+			
+				<button type=" button" class="btn" style="mar">Email
+					<i class="fa fa-paper-plane" style="text-align:right;margin-left: 500px;font-size:30px;color:blue;"></i></button>
+				</button>
+			
+		</div>
+	</div>
+</section>
+
+
+<!---SCREENSHOTS-->
+<section id="Screenshots">
+
+	<h1 class="text-center text-white" style="padding-top: 40px;">SCREENSHOTS</h1>
+		
+		<h1 class="text-center" style="color: white;">-------
+			<i class="fa fa-heart" style="color:white; text-align:center;  font-size:30px;"></i>
+				-------
+		</h1><br>
+
+		<p class="text-center text-white " style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis  exercitation  <br>laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		<br><br>
+
+		<!---CAROUSEL-->
+        	<center>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				  </ol>
+
+
+				    <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img  src="img1.png" style="height:500px" class="animated pulse d-block img-fluid" alt="First slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img src="img2.png" style="height:500px"   class=" animated pulse d-block img-fluid" alt="Second slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img src="img3.png" style="height:500px"   class="animated pulse d-block img-fluid" alt="Third slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img src="img8.png" style="height:500px"   class="animated pulse d-block img-fluid" alt="Forth slide">
+					    </div>
+
+					    <div class="carousel-item">
+					      <img src="img9.png" style="height:500px"   class="animated pulse d-block img-fluid" alt="Fifth slide">
+					    </div>
+
+					</div>
+
+					<!-- Left and right controls -->
+			     <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+			        <span class="carousel-control-prev-icon"></span>
+			     </a>
+			     <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
+			        <span class="carousel-control-next-icon"></span>
+			     </a>
+		    </div>
+		</center>
+</section>
+
+<!----------------------------------------------------------------------------------------------------------------------->
+<!---TESTIMONIALS-->
+<!-- <section id="testimonial"> -->
+
+	<!--class name slidea and attribute data-ride are used by Jquery-->
+		<!-- <div id="my-carousel" class="carousel slide mx-auto" data-ride="carousel" 
+		     data-interval="2000" data-pause="hover"> -->
+
+		     <!--INDICATORS-->
+		    <!--  <ul class="carousel-indicators">
+		     	<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+		     	<li data-target="#my-carousel" data-slide-to="1"></li>
+		     	<li data-target="#my-carousel" data-slide-to="2"></li>
+		        
+		    </ul> -->
+
+			<!--inner container to contain carousel items-->
+			<!-- <div class="carousel-inner"> -->
+				<!--sliding items-->
+				<!--Note: .d-block and .img-fluid are added on carosel images
+					+to prevent browser default image alignment
+		     		+one of the items shall be active to start the slide show-->
+				    <!-- <div class="carousel-item active">
+				    	<img class="d-block " src="/Users/gaurav/Desktop/hdimages/portfolio-4.jpg"  
+				    	height="600px" width="100%" alt="Slide1">
+
+				    	<div class="carousel-caption" style="margin-top: -400px;">
+						<h1 class="text-center text-white" style="padding-top: 40px;">SCREENSHOTS</h1>
+		
+						<h1 class="text-center" style="color: white;">-------
+							<i class="fa fa-heart" style="color:white; text-align:center;  font-size:30px;"></i>
+								-------
+						</h1><br>
+				    		
+				    </div>
+
+				    <div class="carousel-item ">
+				    	<img class="d-block " src="/Users/gaurav/Desktop/hdimages/sea.jpg" height="600px"
+				    	width="100%"
+				    	 alt="Slide2">
+				    </div>
+
+				    <div class="carousel-item ">
+				    	<img class="d-block " src="/Users/gaurav/Desktop/hdimages/port1.jpg" height="600px"
+				    	width="100%"
+				    	alt="Slide3">
+				    </div>
+
+				    
+			</div> -->
+
+
+			     <!-- Left and right controls -->
+			     <!-- <a class="carousel-control-prev" href="#my-carousel" data-slide="prev">
+			        <span class="carousel-control-prev-icon"></span>
+			     </a>
+			     <a class="carousel-control-next" href="#my-carousel" data-slide="next">
+			        <span class="carousel-control-next-icon"></span>
+			     </a>
+
+		</div>
+</section>  -->
+<!--------------------------------------------------------------------------------------------------------------------->
+
+<!----TESTIMONIALS--->
+
+<section id="testimonial">
+
+	<div class="container">
+		<h1 class="text-center text-white" style="padding-top: 40px;">TESTIMONIALS</h1>
+		
+		<h1 class="text-center" style="color: white;">-------
+			<i class="fa fa-heart" style="color:white; text-align:center;  font-size:30px;"></i>
+				-------
+		</h1><br><br>
+
+
+		<center>
+		<img class="rounded-circle" src="boy2.jpg" height="150px" width="150px"
+		style="border-radius: 50%">
+	   </center>
+	   <br><br>
+
+	   <p class="text-center text-white" style="font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	   consequat.</p>
+	   <br>
+
+	   <h2 class="text-white text-center">John Doe</h2>
+	   <br>
+	   <center>
+	    <i class="fa fa-star text-warning"></i>
+		<i class="fa fa-star text-warning"></i>
+		<i class="fa fa-star text-warning"></i>
+		<i class="fa fa-star text-warning"></i>
+		<i class="fa fa-star text-warning"></i>
+	    </center>
+
+    </div>
+</section>
+<br><br>
+
+<!--BEHIND THE STORY--->
+<section="story">
+
+<div class="container">
+
+	    <h1 class="text-center" style="padding-top: 40px;">BEHIND THE STORY</h1>
+		
+		<h1 class="text-center" style="color: blue;">-------
+			<i class="fa fa-heart" style="color:blue; text-align:center;  font-size:30px;"></i>
+				-------
+		</h1><br>
+
+	    <p class="text-center" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis  exercitation  <br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<br><br>
+
+
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card">
+	  					<img class="card-img-top" src="img36.jpeg" alt="Card image cap" height="300px; ">
+	  					<div class="card-body">
+	    					<h1 class="card-title text-center">Sam-mavrick</h1>
+	    					<h3 class="card-text text-center">Web Developer</h3>
+	    					
+	    				
+	  					</div>
+					</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card">
+	  					<img class="card-img-top" src="img23.jpeg" alt="Card image cap" height="300px;"  style="background-size: cover; height: 300px;">
+	  					<div class="card-body">
+	    					<h1 class="card-title text-center">Andrew </h1>
+	    					<h3 class="card-text text-center">Graphic Designer</h3>
+	    					
+	    				
+	  					</div>
+					</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card">
+	  					<img class="card-img-top" src="boy2.jpg" alt="Card image cap" height="300px; ">
+	  					<div class="card-body">
+	    					<h1 class="card-title text-center">David Bobby</h1>
+	    					<h3 class="card-text text-center">UI/UX Developer</h3>
+	    					
+	    				
+	  					</div>
+					</div>
+			</div>
+		</div>
+</div>
+</section>
+<br><br>
+
+<!--GET IT NOW-->
+<section id="get">
+
+	
+
+		<h1 class="text-center font-weight-bold text-white" style="padding-top: 60px;">GET IT NOW</h1>
+		
+		<h1 class="text-center" style="color:white;">-----
+			<i class="fa fa-heart" style="color:white; text-align:center;  font-size:30px;"></i>
+				-----
+		</h1><br><br>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<br><br>
+
+				<button class="btn btn-outline-primary text-white bg-dark">&nbsp;<i class="fa fa-apple fa-3x" style="float: left;"></i><strong>Available on</strong> <br>
+				Apple Store</button>
+
+				<button class="btn btn-outline-primary text-white bg-dark">&nbsp;<i class="fa fa-android fa-3x" style="float: left;"></i><strong>Available on</strong> <br>
+				Apple Store</button>
+
+				<button class="btn btn-outline-primary text-white bg-dark">&nbsp;<i class="fa fa-windows fa-3x" style="float: left;"></i><strong>Available on</strong> <br>
+				Apple Store</button><br><br>
+
+				<button class="btn btn-outline-primary text-white bg-dark" style="padding: 10px 20px;border-radius: 45px; font-size: 22px;">Scan QR code</button>
+			</div>
+			<div class="col-md col-sm">
+				<center class="wow animated bounceInDown">
+				<img  src="img1.png" height="500px;" style="transform: rotate(-45deg);margin-left: 30%;">
+			</center>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<br>
+
+<!----LATEST NEWS--->
+<section id="news">
+
+	<div class="container">
+
+		<h1 class="text-center" style="padding-top: 40px;">LATEST NEWS</h1>
+		<h1 style="text-align: center;">
+			<i class="fa fa-certificate" style="color:blue; font-size:40px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:40px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:40px;"></i>
+		</h1>
+
+		<p class="text-center" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis  exercitation  <br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<br><br>
+
+
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card  wow animated rotateIn">
+	  					<img class="card-img-top" src="cycle.jpeg" alt="Card image cap" height="300px;">
+	  					<div class="card-body">
+	    					<h1 class="card-title">Lorem Ipsum</h1>
+	    					<h3 class="card-text" style="font-size: 22px;">
+	    					Lorem ipsum dolor  amet, consectetur adipisicing elit,  eiusmod
+	    					tempor incididunt ut labore dolore magna aliqua.
+	    				    </h3>
+	    				    <button type=" button" class="btn text-center btn-outline-dark">
+        				   Read More</button>
+	    				</div>
+					</div>
+			</div>	
+
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card wow animated rotateIn">
+	  					<img class="card-img-top" src="toy.jpeg" alt="Card image cap" height="300px;">
+	  					<div class="card-body">
+	    					<h1 class="card-title">Lorem Ipsum</h1>
+	    					<h3 class="card-text" style="font-size: 22px;">
+	    					Lorem ipsum dolor  amet, consectetur adipisicing elit,  eiusmod
+	    					tempor incididunt ut labore dolore magna aliqua.
+	    				    </h3>
+	    				    <button type=" button" class="btn text-center btn-outline-dark">
+        				   Read More</button>
+	    				</div>
+					</div>
+			</div>	
+
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card wow animated rotateIn">
+	  					<img class="card-img-top" src="golf.jpeg" alt="Card image cap" height="300px;">
+	  					<div class="card-body">
+	    					<h1 class="card-title">Lorem Ipsum</h1>
+	    					<h3 class="card-text" style="font-size: 22px;">
+	    					Lorem ipsum dolor  amet, consectetur adipisicing elit,  eiusmod
+	    					tempor incididunt ut labore dolore magna aliqua.
+	    				    </h3>
+	    				    <button type=" button" class="btn text-center btn-outline-dark">
+        				   Read More</button>
+	    				</div>
+					</div>
+			</div>	
+	</div>
+</section>
+<br><br>
+
+<!--VIDEO-->
+<section style="height:100%; height: 400px;border:2px solid black; ">
+	 <video src="/Users/gaurav/Desktop/WSA.html/bootproject2/iphone.mp4" controls autoplay  loop 
+	  style="width: 100%;position:absolute;height: 400px;"></video>
+</section>
+<br>
+
+
+<!--PRICES--->
+<section id="prices">
+
+	<div class="container">
+
+		<h1 class="text-center" style="padding-top: 40px;">PRICES</h1>
+		<h1 style="text-align: center;">
+			<i class="fa fa-certificate" style="color:blue; font-size:40px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:40px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:40px;"></i>
+		</h1>
+
+		<p class="text-center" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis  exercitation  <br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<br><br>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card wow animated bounceInDown" style="background-color: lightgrey; height:550px;">
+	  	
+	  					<div class="card-body">
+	    					<h1 class="card-title text-center text-dark">Freelancer</h1>
+	    					<hr style="height:5px; background-color:black;">
+
+	    					<h1 class="card-title text-center text-dark">
+	    						<sup>$</sup>10.99/<sub>month</sub></h1>
+	    					<hr style="height:5px; background-color:black;">
+	    					<br><br>
+
+	    					<h3 class="card-text text-center" style="font-size: 18px;">
+	    					 <p>Support Form<br><br>
+	    						Free Hosting<br><br>
+	    						50GB Of Free Storage<br><br>
+	    						Admin Area<br><br>
+	    					   </p>
+	    					</h3>
+	    					<br><br><br>
+	    				    <button type=" button text-center" class="btn text-center btn-outline-dark">
+        				   Buy Now</button>
+	    				</div>
+					</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card wow animated bounceInUp" style="background-color:#8f94fb; height:550px;">
+	  	
+	  					<div class="card-body">
+	    					<h1 class="card-title text-center text-dark">Freelancer</h1>
+	    					<hr style="height:5px; background-color:black;">
+
+	    					<h1 class="card-title text-center text-dark">
+	    						<sup>$</sup>10.99/<sub>month</sub></h1>
+	    					<hr style="height:5px; background-color:black;">
+	    					<br><br>
+
+	    					<h3 class="card-text text-center" style="font-size: 18px;">
+	    					 <p>Support Form<br><br>
+	    						Free Hosting<br><br>
+	    						50GB Of Free Storage<br><br>
+	    						Admin Area<br><br>
+	    					   </p>
+	    					</h3>
+	    					<br><br><br>
+	    				    <button type=" button text-center" class="btn text-center btn-outline-dark">
+        				   Buy Now</button>
+	    				</div>
+					</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card wow animated bounceInDown" style="background-color: lightgrey; height:550px;">
+	  	
+	  					<div class="card-body">
+	    					<h1 class="card-title text-center text-dark">Freelancer</h1>
+	    					<hr style="height:5px; background-color:black;">
+
+	    					<h1 class="card-title text-center text-dark">
+	    						<sup>$</sup>10.99/<sub>month</sub></h1>
+	    					<hr style="height:5px; background-color:black;">
+	    					<br><br>
+
+	    					<h3 class="card-text text-center" style="font-size: 18px;">
+	    					 <p>Support Form<br><br>
+	    						Free Hosting<br><br>
+	    						50GB Of Free Storage<br><br>
+	    						Admin Area<br><br>
+	    					   </p>
+	    					</h3>
+	    					<br><br><br>
+	    				    <button type=" button text-center" class="btn text-center btn-outline-dark">
+        				   Buy Now</button>
+	    				</div>
+					</div>
+			</div>
+		</div>	
+	</div>
+</section>
+<br><br>
+
+<!--STATISTICS-->
+<section id="statistics">
+	
+	<div class="container">
+
+		<h1 class="text-center  text-white font-weight-bold" style="padding-top:40px;">STATISTICS</h1>
+		<h1 style="text-align: center;">
+			<i class="fa fa-certificate" style="color:blue; font-size:35px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:35px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:35px;"></i>
+		</h1>
+		<p class="text-center text-white" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis  exercitation  <br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<br><br>
+
+	</div>
+
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+				<i class="fa fa-heart fa-3x"></i> 
+				<h3 class="text-white">Happy Clients </h3>
+				<h2 class="display-4 text-white">1232</h2>
+			</div>
+
+			<div class="col-lg-3  col-md-3 col-sm-3 col-3 text-center">
+				<i class="fa fa-cloud-download fa-3x"></i> 
+				<h3 class="text-white">App Downloads </h3>
+				<h2 class="display-4 text-white">64k</h2>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-3 col-3 text-center ">
+				<i class="fa fa-reddit fa-3x"></i> 
+				<h3 class="text-white">Active Users </h3>
+				<h2 class="display-4 text-white">1811</h2>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-3 col-3 text-center ">
+				<i class="fa fa-star fa-3x star"></i> 
+				<h3 class="text-white">Total Rates </h3>
+				<h2 class="display-4 text-white">232</h2>
+			</div>
+		
+	    </div>
+</section>
+<br><br>
+
+<!---FAQ's--->
+<section id="faq">
+
+<div class="container">
+
+		<h1 class="text-center  font-weight-bold" style="padding-top:40px;">FAQs</h1>
+		<h1 style="text-align: center;">
+			<i class="fa fa-certificate" style="color:blue; font-size:30px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:30px;"></i>
+			<i class="fa fa-certificate" style="color:blue; font-size:30px;"></i>
+		</h1>
+		<p class="text-center" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis  exercitation  <br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<br><br>
+
+<div class="row">
+			<div class="col-md-4 col-sm-12 col-12 wow animated bounceInLeft">
+				<img src="img3.png " height="500px">
+				<img class="hooray" src="img1.png" height="550px" style="margin-top:-500px;margin-left: -80px;">
+			</div>
+
+<div class="col-md-8 col-sm-12 col-12">
+<div class="accordion" id="accordionExample" >
+     <div class="card">
+	    <div class="card-header bg-primary" id="headingOne">
+	      <h5 class="mb-0">
+	        <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	          Why this App is so awesome?
+	        </button>
+	      </h5>
+	    </div>
+
+	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+	      </div>
+	    </div>
+	  </div>
+
+	 <div class="card">
+	     <div class="card-header" id="headingTwo">
+	      <h5 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          Can i get a dicount ?
+	        </button>
+	      </h5>
+	     </div>
+
+	     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+	      </div>
+	    </div>
+     </div>
+
+	 <div class="card">
+	    <div class="card-header" id="headingThree">
+	      <h5 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Top rated App!!
+	        </button>
+	      </h5>
+	    </div>
+	
+	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+	      </div>
+	    </div>
+	 </div>
+
+	  <div class="card">
+	    <div class="card-header" id="headingThree">
+	      <h5 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          User-friendly App!!
+	        </button>
+	      </h5>
+	    </div>
+	
+	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+	      </div>
+	    </div>
+	 </div>
+
+	  <div class="card">
+	    <div class="card-header" id="headingThree">
+	      <h5 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          For all type of Users!!
+	        </button>
+	      </h5>
+	    </div>
+	
+	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+	      </div>
+	    </div>
+	 </div>
+	  
+</div>
+</div>
+</div>
+</div>
+	
+</section>
+<br><br>
+
+<!---MAP--->
+<section id="map">
+	
+<div class="container">
+    <div class="jumbotron">
+
+		    <h1 class="text-center  font-weight-bold" style="padding-top:20px;">GET IN TOUCH</h1>
+		    <h1 style="text-align: center;">
+			<i class="fa fa-certificate" style="color:black; font-size:30px;"></i>
+			<i class="fa fa-certificate" style="color:black; font-size:30px;"></i>
+			<i class="fa fa-certificate" style="color:black; font-size:30px;"></i>
+			<i class="fa fa-certificate" style="color:black; font-size:30px;"></i>
+		   </h1>
+		   <br><br>
+		   
+
+		
+
+		   	<div class="row">
+			   	<div class="col-md-7 col-sm-12" >
+			   		<i class="fa fa-user fa-2x"  style="width: 100%;">&nbsp;&nbsp;
+			   	    <input type="text" placeholder="Name" style="border-top:white; border-left:white;
+			   		border-right:white; width:70%;font-size: 25px;"></i>
+			   		<br><br><br>
+
+			   		<i class="fa fa-paper-plane fa-2x"  style="width: 100%;">&nbsp;&nbsp;
+			   	    <input type="text" placeholder="Email" style="border-top:white; border-left:white;
+			   		border-right:white; width:70%;font-size: 25px;"></i>
+			   		<br><br><br>
+
+			   		<i class="fa fa-envelope-o fa-2x"  style="width: 100%;">&nbsp;&nbsp;
+			   	    <input type="text" placeholder="Message" style="border-top:white; border-left:white;
+			   		border-right:white; width:70%;font-size: 25px;"></i>
+			   		<br><br><br>
+
+			   		<button type=" button" class="btn text-center text-dark btn-outline-dark">
+	        				   Send Message</button>
+				</div>
+			
+		        <div class="col-md-5 col-sm-12 addr">
+		        	<i class="fa fa-map-marker" style="font-size: 25px;">&nbsp;&nbsp;
+		        	    15 Bath RD,Heatthrow<br>&nbsp;&nbsp;&nbsp;&nbsp;
+		        		Longford,Hounslow TW6<br>&nbsp;&nbsp;&nbsp;&nbsp;
+		        		2AB,UK
+		        	</i>
+		        	<br><br><br>
+
+		        	<i class="fa fa-phone " style="font-size: 25px;">&nbsp;&nbsp;
+		        	    +44 171127 8528
+		        	</i>
+		        	<br><br><br>
+
+		        	<i class="fa fa-paper-plane " style="font-size: 25px;">&nbsp;&nbsp;
+		        	    perla.aap@example.com
+		        	</i>
+
+		        </div>
+
+		    </div>
+		
+	</div>
+</div>
+</section>
+	  
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+        			
+       
+
+
+
+           
+       
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+<script src="/Users/gaurav/Desktop/WSA.html/bootproject2/wow/wow.min.js"></script>
+
+<script src="/Users/gaurav/Desktop/WSA.html/bootproject2/wow/custom.js"></script>
+
+</body>
+</html>

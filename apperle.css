@@ -1,0 +1,259 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav{
+	background-image:url("bluebg.jpeg");
+	background-size: cover;
+	width:100%;
+	height:900px;
+
+}
+
+.navbar{
+	font-size: 25px;
+}
+.nav-item a{
+	color: white;
+}
+.nav-item a:hover{
+	color:blue;
+}
+
+#nav .head .appearle{
+	padding-top: 200px;
+	margin-left: 60px;
+}
+
+ #nav .head h1{
+	    	margin-left:150px; 
+	    	margin-top:150px;
+	    }
+
+ #nav .head p{
+	    	margin-left:80px;
+	    	font-size:25px; 
+	    }
+
+#nav .head .btn{
+	border-radius: 45px;
+	 margin-left:150px;
+	 height: 60px;
+	 width:40%;
+}
+
+/*ABOUT*/
+#about .snow{
+	    border:2px solid blue; 
+	    color: white;
+	    font-size:50px; 
+	    border-radius: 55px;
+	    padding:20px 20px; 
+	    background-color: blue; 
+	    
+}
+.row .fa-snowflake-o{
+	border:2px solid blue;
+	border-radius:50%;
+	padding: 20px 30px 25px 25px;
+	background-color: blue;
+	color:white;
+}
+.row .fa-pencil{
+	border:2px solid blue;
+	border-radius:50%;
+	padding: 20px 30px 25px 25px;
+	background-color: blue;
+	color:white;
+}
+
+.row .fa-superpowers{
+	border:2px solid blue;
+	border-radius:50%;
+	padding: 25px 25px 25px 25px;
+	background-color: blue;
+	color:white;
+}
+
+/*FEATURES*/
+#features{
+	background-image:url("f4bg.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 1000px;
+	
+	width:100%;
+}
+
+#features .row .leftcontent h1{
+	text-align: right;
+	font-weight: bold;
+	margin-right: 20px;
+	color:white;
+	
+}
+
+#features .row .leftcontent p{
+	text-align: right;
+	font-size: 25px;
+	margin-right: 20px;
+	color:white;
+
+	
+
+}
+
+#features .row .rightcontent h1{
+	text-align: left;
+	font-weight: bold;
+	margin-right: 20px;
+	color:white;
+}
+
+#features .row .rightcontent p{
+	text-align: left;
+	font-size: 25px;
+	margin-right: 20px;
+	color:white;
+	
+}
+
+/*SUBSCRIBE*/
+#subscribe{
+	background-image:url("sub.jpeg");
+	background-size: cover;
+	opacity: 0.9;
+	height: 150px;
+	widows:100%;
+}
+
+#subscribe{
+	text-align: center;
+	color:white;
+	padding-top:50px;
+
+}
+
+#subscribe .btn{
+	height:60px;
+	width:200%;
+	margin-left: 70px;
+	border-radius:20px 20px 20px 20px;
+	text-align: left;
+	font-size: 25px;
+	color: grey;
+}
+
+/**SCREENSHOTS**/
+#Screenshots{
+	background-image: url("img35.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height:900px;
+	width: 100%;
+}
+
+/***TESTIMONIALS**/
+#testimonial {
+	/*background-image: url("img25.jpeg");
+	background-size: cover;*/
+	background-color: black;
+	width: 100%;
+	height: 700px;
+	/*opacity: 0.9;*/
+	
+}
+
+/***STORY***/
+#story .card{
+	width: 22rem;
+}
+
+/**GET IT NOW**/
+#get{
+	background-image: url("img33.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 700px;
+	width: 100%;
+}
+
+#get .row p{
+	text-align: justify;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#get .row .btn{
+	padding: 10px 20px;
+	border-radius: 45px; 
+	font-size: 20px;
+}
+
+/***NEWS***/
+#news .card{
+	width: 22rem;
+
+}
+
+#news .btn{
+	border-radius: 45px;
+	width:50%;
+}
+
+/***PRICES***/
+#prices .btn{
+	border-radius: 45px;
+	width:90%;
+	margin-left: 20px;
+}
+
+/***STATISTICS***/
+#statistics{
+	background-image: url("stat.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	width: 100%;
+	
+	/*background-color:#8f94fb;*/
+}
+
+
+
+#statistics .fa-heart, .fa-cloud-download, .fa-reddit, .fa-star{
+	    border:2px solid blue; 
+	    color: white;
+	    font-size:50px; 
+	    border-radius: 55px;
+	    padding:20px 20px; 
+	    background-color: blue; 
+	   }
+
+/****MAP****/
+#map{
+	height: 1000px;
+	width: 100%;
+	background-image: url("map.jpeg");
+	background-size: cover;
+	
+	position: relative;
+}
+
+#map .btn{
+	width: 80%;
+	border-radius: 45px;
+	background-color:#8f94fb;
+	font-size: 20px; 
+}
+
+#map .jumbotron{
+	height: 600px;
+	margin-top:200px;
+	 width:80%;
+	background-color:white;
+	position:absolute;
+}
+
